@@ -385,36 +385,39 @@ export default {
         },
         imgLink: "/raqndom.jpg",
 specis:[
-    {name:'Model',val:'EVC2001'},
-    {name:'Product Type',val:'Wet and Dry Industrial Vacuum Cleaner'},
-    {name:'Power',val:'1000 W'},
-    {name:'Capacity',val:'20 L'},
-    {name:'Cleaning Type',val:'Wet / Dry'},
-    {name:'Application',val:'Dust and Liquid Suction'},
-    {name:'Mobility',val:'Wheels'},
-    {name:'Use',val:'Home / Office / Workshop / Professional'}
+    {name:'Brand',val:'YATO'},
+    {name:'Model',val:'YT-82088BS'},
+    {name:'Product Type',val:'Electric Angle Grinder'},
+    {name:'Disc Diameter',val:'115 mm'},
+    {name:'Power',val:'760 W'},
+    {name:'No-Load Speed',val:'11000 RPM'},
+    {name:'Voltage',val:'220-240 V'},
+    {name:'Frequency',val:'50-60 Hz'},
+    {name:'Spindle Thread',val:'M14'},
+    {name:'Weight',val:'2.0 kg'},
+    {name:'Restart Protection',val:'Yes'}
 ],
 
 featchers:[
     {
-        eng:'1000W powerful suction motor',
-        ar:'محرك شفط قوي بقدرة 1000 واط'
+        eng:'760W powerful motor',
+        ar:'محرك قوي بقدرة 760 واط'
     },
     {
-        eng:'Wet and dry cleaning',
-        ar:'تنظيف فعال جاف ورطب'
+        eng:'11000 RPM high-speed operation',
+        ar:'سرعة دوران عالية 11000 دورة/دقيقة'
     },
     {
-        eng:'20L large capacity tank',
-        ar:'خزان كبير بسعة 20 لتر'
+        eng:'115mm cutting and grinding disc',
+        ar:'قرص قطع وجلخ بقطر 115 مم'
     },
     {
-        eng:'Wheeled portable design',
-        ar:'تصميم محمول مزود بعجلات'
+        eng:'Restart protection function',
+        ar:'وظيفة حماية من إعادة التشغيل'
     },
     {
-        eng:'Easy cleaning and maintenance',
-        ar:'سهولة التنظيف والصيانة'
+        eng:'Includes essential accessories',
+        ar:'يشمل الملحقات الأساسية للاستخدام'
     }
 ],
       },
