@@ -1,11 +1,7 @@
 <template>
   <div class="outer-container flex-row">
     <div class="backimg-div">
-      <img
-        src="C:\Users\danaglobPC1\Documents\dana-global\src\components\posters\poster12\imgs\backimg.png"
-        alt=""
-        class="back-img"
-      />
+      <img src="../poster12/imgs/backimg.png" alt="" class="back-img" />
     </div>
     <div class="body-div flex-column">
       <div class="dana-brand flex-row">
