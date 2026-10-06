@@ -1,0 +1,315 @@
+<template>
+  <div class="poster8-product-add-container flex-column">
+    <div class="backgrond-shape-container">
+        <div class="circle-not-filled-div"></div>
+        <div class="circle-filled-div"></div>
+    </div>
+    <div class="img-body-div flex-column">
+        <div class="img-div flex-row">
+            <div class="brand-ksa-frame-div flex-row">
+          <div class="brand-frame-div flex-column">
+            <div class="rects-div flex-row">
+              <div class="single-rect-div" :class="`${this.brandName}-rect-color`"></div>
+              <div class="single-rect-div-black"></div>
+              <div class="single-rect-div" :class="`${this.brandName}-rect-color`"></div>
+              <div class="single-rect-div-black"></div>
+              <div class="single-rect-div" :class="`${this.brandName}-rect-color`"></div>
+              <div class="single-rect-div-black"></div>
+              <div class="single-rect-div" :class="`${this.brandName}-rect-color`"></div>
+            
+              
+            </div>
+            <div class="brands-div flex-column">
+              <div class="brand-img-div ">
+                <img class="brand-img" src="C:\Users\Win PC\Documents\dana-global\src\assets\brandsicons\yato.png" alt="">
+                </div>
+            </div>
+            <div class="rects-div flex-row">
+              <div class="single-rect-div" :class="`${this.brandName}-rect-color`"></div>
+              <div class="single-rect-div-black"></div>
+              <div class="single-rect-div" :class="`${this.brandName}-rect-color`"></div>
+              <div class="single-rect-div-black"></div>
+              <div class="single-rect-div" :class="`${this.brandName}-rect-color`"></div>
+              <div class="single-rect-div-black"></div>
+              <div class="single-rect-div" :class="`${this.brandName}-rect-color`"></div>
+             
+         
+            </div>
+          </div>
+          <div class="ksa-brand-div" v-if="this.brandName === 'yato'">
+            <span class="ksa-span">KSA</span>
+          </div>
+        </div>
+            <div class="single-beams-div beam-position1 flex-row">
+                <div class="single-beam-div"></div>
+                <div class="single-beam-div2"></div>
+                <div class="single-beam-div3"></div>
+            </div>
+            <div class="single-beams-div beam-position2 flex-row">
+                <div class="single-beam-div"></div>
+                <div class="single-beam-div2"></div>
+                <div class="single-beam-div3"></div>
+            </div>
+            <img class="pro-img" src="../imgs/YT-38911.png" alt="">
+        </div>
+        <div class="body-div flex-column">
+            <div class="name-div">
+                <span class="name-span">مجموعة أدوات - 79 قطعة</span>
+            </div>
+            <div class="discrip-div">
+                <span class="discrip-span">مجموعة ادوات احترافية مصممة لتلبية جميع انواع الإحتياجات</span>
+            </div>
+        </div>
+        <div class="contacts-div flex-row">
+            <div class="single-contact-div flex-row">
+                <i class="bi bi-whatsapp flex-row ms-1 me-1"></i>
+                <span>+966 556399399</span>
+            </div>
+            <div class="single-contact-div flex-row">
+                <i class="bi bi-envelope-at-fill flex-row ms-1 me-1"></i>
+                <span>{{"Sc@danaglobal.com.sa"}}</span>
+            </div>
+            <div class="single-contact-div location-contacts flex-column">
+                <div class="single-location-div flex-row">
+                    <span> {{" السعودية - الرياض - السلي "}} </span>
+                    <i class="bi bi-geo-alt-fill flex-row ms-1 me-1"></i>
+                </div>
+                <div class="single-location-div flex-row">
+                    <span>{{"السعودية - الدمام - الخضرية"}}</span>
+                    <i class="bi bi-geo-alt-fill flex-row ms-1 me-1"></i>
+                </div>
+                <div class="single-location-div flex-row">
+                    <span>{{"السعودية - الخبر - الخبر الشمالية"}}</span>
+                    <i class="bi bi-geo-alt-fill flex-row ms-1 me-1"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+</template>
+<script>
+export default {
+  components: {},
+  data() {
+    return {
+      //propreties
+    };
+  },
+  methods: {},
+  mounted() {},
+};
+</script>
+<style scoped>
+.flex-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.poster8-product-add-container{
+    position: relative;
+    height: 700px;
+    width: 700px;
+    /* border: 1px solid black; */
+}
+.backgrond-shape-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    /* background-color: rgb(246, 246, 246); */
+    background-image: linear-gradient(to bottom right , rgb(247, 247, 247), rgb(255, 255, 255));
+
+}
+.circle-filled-div{
+    position: absolute;
+    bottom: 50px;
+    left: -180px;
+    height: 250px;
+    width: 250px;
+    border-radius:0 50% 50% 0 ;
+    background-image: linear-gradient(to bottom left, rgba(213, 242, 246, 1), rgba(64, 220, 244, 1));
+}
+.circle-not-filled-div{
+    position: absolute;
+    bottom: 60px;
+    left: -180px;
+    height: 250px;
+    width: 250px;
+    border-radius:0 50% 50% 0 ;
+    border: 1px solid rgb(151, 151, 151);
+    /* background-image: linear-gradient(to bottom left, rgba(213, 242, 246, 0.7), rgba(64, 220, 244, 0.7)); */
+}
+.img-body-div{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.img-div{
+    position: relative;
+    height: 400px;
+    width: 60%;
+    /* background-color: rgba(43, 227, 255, 0.7); */
+    /* background-color: rgba(179, 179, 179, 0.8); */
+    background-image: linear-gradient(to bottom left, rgba(196, 244, 251, 0.7), rgba(34, 187, 210, 0.7));
+    border-radius: 0 0 30% 30%;
+}
+.single-beams-div{
+    position: absolute ;
+    height: 100px;
+    width: 100px;
+    /* background-color: aqua; */
+}
+.single-beam-div{
+    position: absolute;
+    left: 40px;
+    top: 0px;
+    height: 100px;
+    width: 10px;
+    border-radius: 15px;
+    /* background-color: #a7a7a7; */
+    background-color: rgba(196, 244, 251, 0.7);
+    transform: rotate(-25deg) scale(1);
+}
+.single-beam-div2{
+    position: absolute;
+    left: 60px;
+    top: 20px;
+    height: 70px;
+    width: 10px;
+    border-radius: 15px;
+    /* background-color: #fa8a8a; */
+     background-color:  rgba(196, 244, 251, 0.7);
+    transform: rotate(-25deg) scale(1);
+}
+.single-beam-div3{
+    position: absolute;
+    left: 26px;
+    top: 20px;
+    height: 70px;
+    width: 10px;
+    border-radius: 15px;
+     background-color:  rgba(196, 244, 251, 0.7);
+    /* background-color: #fa8a8a; */
+    transform: rotate(-25deg) scale(1);
+}
+.beam-position1{
+    top: 20px;
+    left: 10px;
+}
+.beam-position2{
+    bottom: 50px;
+    right: 20px;
+}
+.pro-img{
+    position: absolute;
+    height: 90%;
+    filter: drop-shadow(3px 4px 3px rgba(61, 57, 57, 1));
+    transform: translateY(10px);
+}
+.body-div{
+    flex: 1;
+    width: 80%;
+    /* font-family: "Beiruti"; */
+      font-family: "Almarai";
+      color: #3f3f3f;
+    /* background-color: aqua; */
+}
+.name-span{
+    font-size: 50px;
+}
+.discrip-span{
+    font-size: 20px;
+}
+.contacts-div{
+    /* height: 30px; */
+    width: 80%;
+    font-size: 9px;
+    color: #3f3f3f;
+    /* font-weight: bold; */
+    /* background-color: #555; */
+    justify-content: space-between;
+    align-items: flex-end;
+    /* font-family: "Beiruti"; */
+      font-family: "Almarai";
+}
+.single-contact-div{
+    /* height: 100%; */
+    padding: 5px 10px 5px 10px;
+    background-image: linear-gradient(to bottom left, rgba(196, 244, 251, 0.7), rgba(34, 187, 210, 0.7));
+    border-radius: 7px 7px 0 0;
+}
+.location-contacts{
+    align-items: flex-end;
+}
+.brand-ksa-frame-div{
+  position: absolute;
+  bottom: -50px;
+  width: 200px;
+  /* transform: translateY(-30px); */
+}
+.main-brand-img{
+   width: 50px;
+   margin: 2px 0 2px;
+}
+.brand-img{
+  /* height: 40px; */
+  width: 100px;
+}
+.rects-div{
+  width: 100%;
+}
+.single-rect-div{
+  height: 0px;
+  width: 0px;
+  border-top: 7px solid rgb(240, 20, 20);
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  background-color: transparent;
+  /* background-color: #555; */
+}
+.yato-rect-color{
+  border-top: 7px solid rgb(240, 20, 20);
+}
+.vorel-rect-color{
+  border-top: 7px solid rgb(255, 194, 14);
+}
+.sthor-rect-color{
+  border-top: 7px solid rgb(245, 130, 31);
+}
+.poweraction-rect-color{
+  border-top: 7px solid rgb(51, 134, 118);
+}
+.single-rect-div-black{
+  height: 0px;
+  width: 0px;
+  border-bottom: 7px solid rgb(22, 22, 22);
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  background-color: transparent;
+  /* background-color: #555; */
+}
+input[type="text"] {
+  width: 90px;
+  height: 25px;
+  border-radius: 8px;
+  padding: 5px;
+  font-size: 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+input[type="text"]:focus {
+  border: 1px solid #555;
+}
+</style>
