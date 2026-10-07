@@ -12,8 +12,8 @@
     <!-- <ClassiPoster/> -->
     <!-- <BrandsBanars/> -->
     <!-- <Logo/> -->
-    <Posters />
-    <!-- <home2 /> -->
+    <!-- <Posters /> -->
+    <home2 />
   </div>
 </template>
 <script>
