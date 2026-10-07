@@ -18,34 +18,34 @@
 </template>
 <script>
 /* eslint-disable vue/no-unused-components */
-import LiftingBanar from "./components/liftingBanar/liftingBanarMobile.vue";
-import GardingBanar from "./components/gardingBanar/gardingBanarMobile.vue";
-import PowerToolsBanar from "./components/powerToolsBanar/powerToolsMobile.vue";
-import SingleProduct from "./components/singleProductShow/singleProductBanar.vue";
-import SallaProductFrame from "./components/sallaproductframe/sallaproductframe.vue";
-import HandsToolsBanarMobile from "./components/handsToolsBanar/handsToolsBanarMobile.vue";
-import ThreeSqrsBanars from "./components/threeSqrBanar/threeSqrBanar.vue";
-import ThreeCardsBanar from "./components/banarwith3cards/mobileBanarThreeCards.vue";
-import ClassiPoster from "./components/classificationPosters/classPoster.vue";
-import Posters from "./components/posters/posters.vue";
-import BrandsBanars from "./components/brandsBanar/brandsBanar.vue";
-import Logo from "./components/moeidatiLogo/moeidataiLogo.vue";
+// import LiftingBanar from "./components/liftingBanar/liftingBanarMobile.vue";
+// import GardingBanar from "./components/gardingBanar/gardingBanarMobile.vue";
+// import PowerToolsBanar from "./components/powerToolsBanar/powerToolsMobile.vue";
+// import SingleProduct from "./components/singleProductShow/singleProductBanar.vue";
+// import SallaProductFrame from "./components/sallaproductframe/sallaproductframe.vue";
+// import HandsToolsBanarMobile from "./components/handsToolsBanar/handsToolsBanarMobile.vue";
+// import ThreeSqrsBanars from "./components/threeSqrBanar/threeSqrBanar.vue";
+// import ThreeCardsBanar from "./components/banarwith3cards/mobileBanarThreeCards.vue";
+// import ClassiPoster from "./components/classificationPosters/classPoster.vue";
+// import Posters from "./components/posters/posters.vue";
+// import BrandsBanars from "./components/brandsBanar/brandsBanar.vue";
+// import Logo from "./components/moeidatiLogo/moeidataiLogo.vue";
 import home2 from "./components/home2/home.vue";
 export default {
   components: {
-    LiftingBanar,
-    GardingBanar,
-    PowerToolsBanar,
-    SingleProduct,
-    SallaProductFrame,
-    HandsToolsBanarMobile,
-    ThreeSqrsBanars,
-    ThreeCardsBanar,
-    ClassiPoster,
-    Posters,
-    BrandsBanars,
-    Logo,
-    home2,
+    // LiftingBanar,
+    // GardingBanar,
+    // PowerToolsBanar,
+    // SingleProduct,
+    // SallaProductFrame,
+    // HandsToolsBanarMobile,
+    // ThreeSqrsBanars,
+    // ThreeCardsBanar,
+    // ClassiPoster,
+    // Posters,
+    // BrandsBanars,
+    // Logo,
+    home2
   },
   data() {
     return {

@@ -23,44 +23,44 @@
 </template>
 <script>
 /* eslint-disable vue/no-unused-components */
-import backgroundImgs from "./components/mainHomeBack/background.vue";
-import Stock from "./components/stock/stock.vue";
-import QRcode from './components/qrcode/qrcode.vue';
-import NewItems from './components/newItems/newItems.vue';
-import MainView2 from './components/mainPage2/mainPage2.vue';
-import StoreValue from "./components/storeValue/storevalue.vue";
-import BuyNowBanar from "./components/buynowBanar/buyNow.vue";
-import ClassiGroup from './components/classifiGroup/classGroup.vue';
-import SeftyBlogBanar from "./components/seftyBlogBanar/seftyBlogBanar.vue";
-import HeaderStyle from "./components/headerStyle/headerStyle.vue";
+// import backgroundImgs from "./components/mainHomeBack/background.vue";
+// import Stock from "./components/stock/stock.vue";
+// import QRcode from './components/qrcode/qrcode.vue';
+// import NewItems from './components/newItems/newItems.vue';
+// import MainView2 from './components/mainPage2/mainPage2.vue';
+// import StoreValue from "./components/storeValue/storevalue.vue";
+// import BuyNowBanar from "./components/buynowBanar/buyNow.vue";
+// import ClassiGroup from './components/classifiGroup/classGroup.vue';
+// import SeftyBlogBanar from "./components/seftyBlogBanar/seftyBlogBanar.vue";
+// import HeaderStyle from "./components/headerStyle/headerStyle.vue";
 import Sections from "./components/sections/sections.vue";
-import Widding from "./components/widding/widding.vue";
-import Bankak from "./components/widding/bankak.vue";
-import Roll from "./components/rollDis/rolldis.vue";
-import ToolBox from "./components/toolBoxLogo/toolBox.vue";
-import WeeklyConent from "./components/weeklycontent/weeklyConent.vue";
-import Pages from "./components/pages/pages.vue";
-import Comp26 from "./components26/comp26.vue";
+// import Widding from "./components/widding/widding.vue";
+// import Bankak from "./components/widding/bankak.vue";
+// import Roll from "./components/rollDis/rolldis.vue";
+// import ToolBox from "./components/toolBoxLogo/toolBox.vue";
+// import WeeklyConent from "./components/weeklycontent/weeklyConent.vue";
+// import Pages from "./components/pages/pages.vue";
+// import Comp26 from "./components26/comp26.vue";
 export default {
   components: {
-    backgroundImgs,
-    Stock,
-    QRcode,
-    MainView2,
-    NewItems,
-    ClassiGroup,
-    StoreValue,
-    BuyNowBanar,
-    SeftyBlogBanar,
-    HeaderStyle,
+    // backgroundImgs,
+    // Stock,
+    // QRcode,
+    // MainView2,
+    // NewItems,
+    // ClassiGroup,
+    // StoreValue,
+    // BuyNowBanar,
+    // SeftyBlogBanar,
+    // HeaderStyle,
     Sections,
-    Widding,
-    Bankak,
-    Roll,
-    ToolBox,
-    WeeklyConent,
-    Pages,
-    Comp26
+    // Widding,
+    // Bankak,
+    // Roll,
+    // ToolBox,
+    // WeeklyConent,
+    // Pages,
+    // Comp26
   },
   data() {
     return {
