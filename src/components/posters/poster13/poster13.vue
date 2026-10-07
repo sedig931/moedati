@@ -5,11 +5,11 @@
     </div>
     <div class="body-div flex-column">
       <div class="dana-brand flex-row">
-        <img
+        <!-- <img
           src="C:\Users\danaglobPC1\Documents\dana-global\src\assets\brandsicons\danaglobal.png"
           alt=""
           class="dana-brand-img"
-        />
+        /> -->
       </div>
       <!-- <div class="moedati-icon-div-outer">
       <div class="moedati-icon-div flex-column">
@@ -21,11 +21,11 @@
       </div>
       <div class="pro-det-div flex-row">
         <div class="single-pro-det-div flex-column">
-          <img
+          <!-- <img
             src="C:\Users\danaglobPC1\Documents\dana-global\src\assets\brandsicons\yato.png"
             alt=""
             class="brand-img"
-          />
+          /> -->
           <img src="./imgs/YT-82175.png" alt="" class="pro-img pro-img-left" />
           <div class="pro-name">
             <span> SPACIFICATIONS </span>
@@ -85,17 +85,17 @@
 
     <div class="deleveryicon-taby-outer">
       <div class="deleveryicon-taby flex-row">
-        <img
+        <!-- <img
           src="C:\Users\danaglobPC1\Documents\dana-global\src\components\home2\components\weeklycontent\imgs\deliveryicon.png"
           alt=""
           class="delevery-img"
-        />
+        /> -->
         <img
           src="https://cdn.salla.network/cdn-cgi/image/fit=scale-down,width=70,height=70,onerror=redirect,format=auto/images/sbc.png?v=2.0.5"
           alt=""
           class="mothoq-img"
         />
-        <img
+        <!-- <img
           src="C:\Users\danaglobPC1\Documents\dana-global\src\components\home2\components\weeklycontent\imgs\Tabby-01.png"
           alt=""
           class="tabby-img"
@@ -104,7 +104,7 @@
           src="C:\Users\danaglobPC1\Documents\dana-global\src\components\home2\components\weeklycontent\imgs\card.png"
           alt=""
           class="card-img"
-        />
+        /> -->
       </div>
     </div>
   </div>

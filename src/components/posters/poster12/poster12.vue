@@ -3,7 +3,7 @@
     <img src="./imgs/backimg.png" class="back-img" alt="">
     <div class="moedati-icon-div-outer">
     <div class="moedati-icon-div flex-column">
-        <img class="moedati-img" src="C:\Users\danaglobPC1\Documents\dana-global\src\assets\brandsicons\moedati.png" alt="">
+        <!-- <img class="moedati-img" src="C:\Users\danaglobPC1\Documents\dana-global\src\assets\brandsicons\moedati.png" alt=""> -->
     </div>
     </div>
     <div class="txts-div flex-column" dir="rtl">
@@ -32,10 +32,10 @@
 
     <div class="deleveryicon-taby-outer">
       <div class="deleveryicon-taby flex-row">
-        <img src="C:\Users\danaglobPC1\Documents\dana-global\src\components\home2\components\weeklycontent\imgs\deliveryicon.png" alt="" class="delevery-img">
+        <!-- <img src="C:\Users\danaglobPC1\Documents\dana-global\src\components\home2\components\weeklycontent\imgs\deliveryicon.png" alt="" class="delevery-img">
         <img src="https://cdn.salla.network/cdn-cgi/image/fit=scale-down,width=70,height=70,onerror=redirect,format=auto/images/sbc.png?v=2.0.5" alt="" class="mothoq-img">
         <img src="C:\Users\danaglobPC1\Documents\dana-global\src\components\home2\components\weeklycontent\imgs\Tabby-01.png" alt="" class="tabby-img">
-        <img src="C:\Users\danaglobPC1\Documents\dana-global\src\components\home2\components\weeklycontent\imgs\card.png" alt="" class="card-img">
+        <img src="C:\Users\danaglobPC1\Documents\dana-global\src\components\home2\components\weeklycontent\imgs\card.png" alt="" class="card-img"> -->
       </div>
     </div>
   </div>
